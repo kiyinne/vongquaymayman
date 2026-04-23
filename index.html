@@ -65,7 +65,7 @@
 </head>
 <body>
   <div class="app">
-    <h1>🎁 Món quà tiếp theo bbi, không nhân dịp gì cả 🎁🎈🧿 </h1>
+    <h1>🎁 Món quà tiếp theo bbi, không nhân dịp gì cả 🎁 </h1>
 
     <div class="wheel-wrap">
       <div class="pointer"></div>
@@ -89,7 +89,7 @@
 
 <script>
 // ====== 3 QUÀ THẬT (KHÔNG HIỂN THỊ RA NGOÀI) ======
-const realGifts = ["Sách Ngọt ","con vịt ","con gấu "];
+const realGifts = ["Sách Ngọt "," con gấu ","con vịt"];
 const chosenIndexes = [5, 20, 40];
 const weights = [0.34,0.33,0.33];
 
@@ -103,7 +103,7 @@ fetch("gifts.txt")
     init();
   })
   .catch(() => {
-    fillerPool = ["Quà A","Quà B","Quà C""Quà A","Quà B","Quà C""Quà A","Quà B","Quà C"];
+    fillerPool = ["Quà A","Quà B","Quà C"];
     init();
   });
 
